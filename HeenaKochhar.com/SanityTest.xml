@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="3" parallel="classes">
+
+  <test name="ChromeTest">
+<parameter name="browser123" value="Chrome"/>
+    <classes>
+      <class name="HeenaKochharPom.VerifyHeaderTabs"/>
+      
+    </classes>
+  </test> <!-- Test -->
+ 
+   <test name="EdgeTest">
+   <parameter name="browser123" value="Edge"/>
+    <classes>
+      <class name="HeenaKochharPom.VerifyHeaderTabs"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
